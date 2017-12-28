@@ -1,0 +1,12 @@
+.nav {
+}
+#logo-icon {
+	background-image: url("../imgs/logo-icon.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.nav-btn{
+	height: 100px;
+	padding: 25px 0;
+}

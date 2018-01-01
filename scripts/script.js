@@ -1,22 +1,8 @@
-//ReactDOM.render(<h1>hello world</h1>, document.getElementById('navbar'));
-var Greeting = React.createClass({
-    render: function() {
-      	return (
-			React.createElement('h1', null, 'Hello World')
-      	)
-    }
+$(document).ready(function(){
+	$("#mobile-menu-btn").click(function() {
+		$("#mobile-menu-dropdown").toggle();
+	});
+	$(window).on('resize', function(){
+		$("#mobile-menu-dropdown").hide();
+	});
 });
-
-window.addEventListener('load', function() {
-	React.render(
-		React.createElement(Greeting, null),
-		document.getElementById('navbar')
-	);
-});
-
-/*
-ReactDOM.render(
-    <Greeting/>,
-    document.getElementById('navbar')
-);
-*/

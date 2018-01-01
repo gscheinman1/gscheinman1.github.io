@@ -11,11 +11,11 @@
 /* Navigation section */
 #nav-bar {
 	/*background-color: #68AB8D;*/
-	margin: 0 -15px 0 -15px;
-	padding: 0 15px;
-	border: none;
-	border-radius: 0;
-	background-color: white;
+	margin: 0 -15px 0 -15px !important;
+	padding: 0 15px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	background-color: white !important;
 }
 #nav-border {
 	margin: 0 -15px 0 -15px;

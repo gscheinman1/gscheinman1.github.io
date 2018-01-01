@@ -2,6 +2,15 @@
 .headline-center {
 	text-align: center;
 }
+.custom-btn-1 {
+	background-color: #68AB8D;
+	border-radius: 30px;
+	border-color: white;
+	border-width: 0px;
+}
+.custom-btn-1:hover {
+	border-style: none;
+}
 
 /* Spacing */
 .spacer {
@@ -23,8 +32,9 @@
 	height: 3px;
 	width: 120%;
 }
-#nav-bar h4 {
-	color: #558970;
+#nav-bar h5 {
+	color:white; 
+	padding: 0 10px;
 }
 #nav-bar h4:hover {
 	color: white;

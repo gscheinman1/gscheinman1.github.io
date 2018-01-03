@@ -1,15 +1,52 @@
 /* Global */
+* {
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	font-weight: 800;
+}
+h2 {
+	font-weight: 700;
+}
+h3 {
+	font-weight: 600;
+}
+h4 {
+	font-weight: 500;
+}
+h5, h6, p{
+	font-weight: 400;
+}
 .headline-center {
 	text-align: center;
 }
 .custom-btn-1 {
-	background-color: #68AB8D;
+	border-color: #68AB8D;
+	padding: 0 20px;
 	border-radius: 30px;
-	border-color: white;
-	border-width: 0px;
+	background-color: white;
+	border-width: 2px;
+	color: #68AB8D;
 }
 .custom-btn-1:hover {
-	border-style: none;
+	border-color: #68AB8D;
+	background-color: #68AB8D;
+	border-width: 2px;
+	color: white;
+}
+.custom-btn-2 {
+	border-color: #68AB8D;
+	padding: 0 20px;
+	border-radius: 30px;
+	background-color: white;
+	border-width: 2px;
+	color: #68AB8D;
+}
+.custom-btn-2:hover {
+	border-color: #68AB8D;
+	background-color: #68AB8D;
+	border-width: 2px;
+	color: white;
 }
 
 /* Spacing */
@@ -21,7 +58,7 @@
 #nav-bar {
 	/*background-color: #68AB8D;*/
 	margin: 0 -15px 0 -15px !important;
-	padding: 0 15px !important;
+	padding: 5px 15px !important;
 	border: none !important;
 	border-radius: 0 !important;
 	background-color: white !important;
@@ -32,21 +69,11 @@
 	height: 3px;
 	width: 120%;
 }
-#nav-bar h5 {
-	color:white; 
-	padding: 0 10px;
-}
-#nav-bar h4:hover {
-	color: white;
-}
 #mobile-menu-btn {
 	border: none;
 	border-radius: none;
 	background-color: white;
 	margin: 15px 15px;
-}
-#mobile-menu-btn:hover{
-	color: white;
 }
 #mobile-menu-bar {
 	background-color: #68AB8D;
@@ -70,18 +97,37 @@
 
 /* Platform Description 1 (section-1) */
 #section-1-text {
+	float: right;
+}
+#s1-text-normal {
 	height: 442px;
-	/*background-color: red;*/
-	padding: 125px 50px 0 25px;
+	padding: 25% 50px 0 25px;
+}
+#s1-text-mobile {
+	text-align: center;
+	padding: 0 0 25px 0;
 }
 
 #section-1-img {
-	/*background-color: blue;*/
+	height: 442px;
 	background-image: url("../imgs/temp-img-1.png");
 	background-repeat: no-repeat;
 	background-size: contain;
+	float: left;
+	background-color: blue;
 	background-position: center;
-	height: 442px;
+}
+/*
+#s1-img-normal {
+	width: 58.3%;
+}
+#s1-img-mobile {
+	width: 50%;
+	background-position: top !important;
+}
+*/
+#s1-explore-btn {
+	margin-top: 10px;
 }
 
 /* Platform Description 2 (section-2) */

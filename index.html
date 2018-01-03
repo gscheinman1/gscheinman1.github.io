@@ -6,11 +6,12 @@
     <meta name="author" content="Destin Raymundo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container">
 		<!-- NAVIGATION BAR -->
 
 		<nav class="navbar navbar-default" id="nav-bar">
@@ -27,14 +28,14 @@
           </ul>
 				</button>
 				<a class="navbar-brand" href="#">
-          <img src="imgs/logo-3.svg" style="width: 150px; margin: -10px 0 0 0;">
+          <img src="imgs/logo-3.svg" style="width: 175px; margin: -10px 0 0 0;">
         </a>
 			</div>
 			<div class="collapse navbar-collapse" id="nav-bar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h5>Download</h5></button></a></li>
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h5>About</h5></button></a></li>
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h5>Sign Up</h5></button></a></li>
+					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Download</h4></button></a></li>
+					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>About</h4></button></a></li>
+					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Sign Up</h4></button></a></li>
           <!--
 					<li><a href="#"><h4>About</h4></a></li>
 					<li><a href="#"><h4>Sign Up</h4></a></li>
@@ -42,19 +43,28 @@
 				</ul>
 			</div>
 		</nav>
-    <div id="nav-border"></div>
+    <!--<div id="nav-border"></div>-->
 
 		<!-- SPACER -->
 		<div class="row"><div class="col-xs-12 spacer"></div></div>
 
 		<!-- PLATFORM DESCRIPTION 1 -->
 		<div class="row">
-			<div class="col-md-7" id="section-1-img"></div>
-			<div class="col-md-5" id="section-1-text">
-				<h1>Textbooks, simplified.</h1>
-				<h3>Access all of your textbooks seamlessly on one centralized platform. <br><br>
-					(image on left will be animation)
-				</h3>
+			<div class="col-md-5 col-xs-12" id="section-1-text">
+				<div class="visible-md visible-lg" id="s1-text-normal">
+					<h1>Textbooks, simplified.</h1>
+					<h3>Access all of your textbooks seamlessly on one centralized platform.</h3>
+					<button class="btn btn-default btn-xs custom-btn-1" id="s1-explore-btn"><h4>Explore</h4></button>
+				</div>
+				<div class="visible-xs visible-sm" id="s1-text-mobile">
+					<h1>Textbooks, simplified.</h1>
+					<h3>Access all of your textbooks seamlessly on one centralized platform.</h3>
+					<button class="btn btn-default btn-xs custom-btn-1" id="s1-explore-btn"><h4>Explore</h4></button>
+				</div>
+			</div>
+			<div class="col-md-7 col-xs-12" id="section-1-img">
+				<div class="visible-md visible-lg" id="s1-img-normal"></div>
+				<div class="visible-xs visible-sm" id="s1-img-mobile"></div>
 			</div>
 		</div>
 

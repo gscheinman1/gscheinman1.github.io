@@ -3,23 +3,20 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g>
-	
-		<path fill="none" stroke="#71C4DA" stroke-width="3.9444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M76.247,95.571H23.753V26.147L42.909,7.652c4.291-4.297,10.293-4.297,14.584,0l18.754,18.495V95.571z"/>
-	<g>
-		
-			<path fill="none" stroke="#71C4DA" stroke-width="3.9444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M57.156,56.327c0-4.006-3.151-6.099-7.153-6.099c-4.01,0-7.257,2.093-7.257,6.099c0,4.006,2.415,4.838,7.257,7.255
-			c4.834,2.413,7.257,3.245,7.257,7.257c0,4.002-3.255,6.044-7.257,6.044c-4.01,0-7.257-2.042-7.257-6.044"/>
-		
-			<line fill="none" stroke="#71C4DA" stroke-width="3.9444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.003" y1="45.141" x2="50.003" y2="49.085"/>
-		
-			<line fill="none" stroke="#71C4DA" stroke-width="3.9444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.003" y1="77.684" x2="50.003" y2="82.615"/>
-	</g>
-	
-		<path fill="none" stroke="#71C4DA" stroke-width="3.9444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-		M55.881,23.74c0,2.901-2.353,5.254-5.254,5.254c-2.904,0-5.254-2.354-5.254-5.254c0-2.906,2.35-5.254,5.254-5.254
-		C53.528,18.485,55.881,20.833,55.881,23.74z"/>
-</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.137" y1="50" x2="99.863" y2="50">
+	<stop  offset="0" style="stop-color:#84DD7F"/>
+	<stop  offset="1" style="stop-color:#69AA8C"/>
+</linearGradient>
+<circle fill="none" stroke="url(#SVGID_1_)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="50" cy="50" r="47.863"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="36.603" y1="50" x2="63.3975" y2="50">
+	<stop  offset="0" style="stop-color:#84DD7F"/>
+	<stop  offset="1" style="stop-color:#69AA8C"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M63.397,60.932c0-7.023-4.26-9.121-10.707-12.296c-0.573-0.282-1.172-0.578-1.797-0.89
+	c-0.627-0.313-1.229-0.609-1.804-0.893c-6.727-3.313-8.486-4.36-8.486-8.712c0-5.588,4.854-7.579,9.397-7.579
+	c4.464,0,9.234,1.991,9.234,7.579c0,1.104,0.896,2,2,2s2-0.896,2-2c0-6.322-4.44-10.739-11.234-11.462v-6.106c0-1.104-0.896-2-2-2
+	s-2,0.896-2,2v6.103c-6.892,0.716-11.397,5.135-11.397,11.465c0,7.02,4.264,9.121,10.719,12.3c0.569,0.28,1.165,0.573,1.785,0.883
+	c0.632,0.315,1.237,0.614,1.817,0.899c6.577,3.239,8.474,4.366,8.474,8.708c0,5.524-4.854,7.492-9.397,7.492
+	s-9.397-1.968-9.397-7.492c0-1.104-0.896-2-2-2s-2,0.896-2,2c0,6.283,4.505,10.669,11.397,11.379v7.116c0,1.104,0.896,2,2,2
+	s2-0.896,2-2v-7.116C58.892,71.601,63.397,67.214,63.397,60.932z"/>
 </svg>

@@ -176,7 +176,7 @@ h5, h6, p{
 #reason-bg-middle {
 	background-color: #84dd7f;
 	background: linear-gradient(to bottom, #84dd7f, #69aa8c);
-	height: 400px;
+	height: 400;
 	/*transform: rotate(-5deg) skew(-5deg) translate(0, -20px);*/
 }
 #reason-bg-bottom {

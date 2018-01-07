@@ -1,7 +1,7 @@
 //var md-width = 992;
 $(document).ready(function(){
 	$("#mobile-menu-btn").click(function() {
-		$("#mobile-menu-dropdown").toggle();
+		$("#mobile-menu-dropdown").toggle(500);
 	});
 	$(window).on('resize load', function(){
 		$("#mobile-menu-dropdown").hide();

@@ -34,18 +34,12 @@ h5, h6, p{
 	border-width: 2px;
 	color: white;
 }
-.custom-btn-2 {
-	border-color: #84dd7f;
-	padding: 0 20px;
-	border-radius: 30px;
-	background-color: white;
-	border-width: 2px;
-	color: #84dd7f;
+.custom-dropdown {
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.custom-btn-2:hover {
-	border-color: #84dd7f;
+.dropdown-menu>li>a:hover {
 	background-color: #84dd7f;
-	border-width: 2px;
 	color: white;
 }
 

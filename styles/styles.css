@@ -48,6 +48,20 @@ h5, h6, p{
 	/*background-color: green;*/
 	height: 75px;
 }
+/* Jumbotron*/
+.jumbotron{
+	padding: 250px 0px 0px 0px;
+	text-align: center;
+	background-color: #84dd7f;
+	color: white; 
+	background: linear-gradient(to bottom, #84dd7f, #69aa8c);
+}
+#find-out-how{
+	background-color: #69aa8c;
+	text-align: center;
+	margin-top: -40px;
+	color: white;
+}
 /* Navigation section */
 #nav-bar {
 	/*background-color: #84dd7f;*/
@@ -55,14 +69,17 @@ h5, h6, p{
 	padding: 5px 15px !important;
 	border: none !important;
 	border-radius: 0 !important;
-	background-color: white !important;
+	background-color: rgba(255, 255, 255, 0.90);
 }
-#nav-border {
+.navbar-form{
+	border-color: #84dd7f;
+}
+/*#nav-border {
 	margin: 0 -15px 0 -15px;
 	background: linear-gradient(to right, #84dd7f, #558970);
 	height: 3px;
 	width: 120%;
-}
+}*/
 #mobile-menu-btn {
 	border: none;
 	border-radius: none;
@@ -78,6 +95,9 @@ h5, h6, p{
 	background-size: contain;
 	height: 100px;
 	margin: 0 0 0 10%;
+}
+.nav-btn{
+	color: #84dd7f!important;
 }
 
 /* PLatform Descriptions */
@@ -154,7 +174,50 @@ h5, h6, p{
 	}
 }
 
-
+/* Platform Description 3 (section-2=3) */
+#section-3 {
+	padding-top: 100px;
+}
+#section-3-text {
+	text-align: center;
+}
+.section-3-text {
+	color: #888888;
+}
+@media (min-width: 992px) { /* medium screens and up */
+	#section-3-text {
+		text-align: left;
+	}
+}
+@media (min-width: 1200px) { /* large screens and up */
+	#section-3-text {
+		text-align: left;
+		padding-top: 70px;
+	}
+	#section-3 {
+		padding-top: 70px;
+	}
+}
+.glyphicon{
+	font-size: 300%;
+	color: #84dd7f;
+}
+.thumbnail{
+	border-color: #84dd7f;
+}
+.thumbnail:hover{
+	border-color: #84dd7f;
+	background-color: #84dd7f;
+}
+.thumbnail:hover p{
+	color: white;
+}
+.thumbnail:hover .glyphicon{
+	color: white;
+}
+.thumbnail:hover .caption{
+	color: white;
+}
 /* Reasons section */
 .reasons-section {
 	margin-top: 11px;
@@ -174,8 +237,8 @@ h5, h6, p{
 	transform: translate(0, -60px);
 }
 #reason-bg-middle {
-	background-color: #84dd7f;
-	background: linear-gradient(to bottom, #84dd7f, #69aa8c);
+	background-color: #84dd7f!important;
+	background: linear-gradient(to bottom, #84dd7f, #69aa8c)!important;
 	height: 400;
 	/*transform: rotate(-5deg) skew(-5deg) translate(0, -20px);*/
 }
@@ -232,7 +295,11 @@ h5, h6, p{
 	padding-left: 10px;
 	text-align: center;
 }
-.price-block h2, .price-block h3, .price-block h4{
+.price-block h1, .price-block h2, .price-block h6{
+	color: white;
+	text-align: center;
+}
+.price-block ul{
 	color: white;
 }
 @media (min-width: 992px) { /* medium screens and up */

@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>BookBag</title>
-    <meta name="author" content="Destin Raymundo">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
+	<meta charset="utf-8">
+	<title>BookBag</title>
+	<meta name="author" content="Destin Raymundo">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="icon" type="image/png" href="imgs/favicon.ico">
 </head>
 <body>
 	<div class="container">
 		<!-- NAVIGATION BAR -->
 
 		<nav class="navbar navbar-default" id="nav-bar">
-			<div class="navbar-header">
-				<button type="button" id="mobile-menu-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-collapse" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar" id="mobile-menu-bar"></span>
-					<span class="icon-bar" id="mobile-menu-bar"></span>
-					<span class="icon-bar" id="mobile-menu-bar"></span>
-          <ul class="dropdown-menu dropdown-menu-right custom-dropdown" id="mobile-menu-dropdown">
-  					<li><a href="#">Download</a></li>
-  					<li><a href="#">About</a></li>
-  					<li><a href="#">Sign Up</a></li>
-          </ul>
-				</button>
-				<a class="navbar-brand" href="#">
-          <img src="imgs/logo-3.svg" style="width: 175px; margin: -10px 0 0 0;">
-        </a>
-			</div>
-			<div class="collapse navbar-collapse" id="nav-bar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Download</h4></button></a></li>
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>About</h4></button></a></li>
-					<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Sign Up</h4></button></a></li>
-				</ul>
+			<div class="row">
+				<div class="navbar-header">
+					<button type="button" id="mobile-menu-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar" id="mobile-menu-bar"></span>
+						<span class="icon-bar" id="mobile-menu-bar"></span>
+						<span class="icon-bar" id="mobile-menu-bar"></span>
+						<ul class="dropdown-menu dropdown-menu-right custom-dropdown" id="mobile-menu-dropdown">
+							<li><a href="#">Download</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Sign Up</a></li>
+						</ul>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="imgs/logo-3.svg" style="width: 175px; margin: -10px 0 0 0;">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="nav-bar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Download</h4></button></a></li>
+						<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>About</h4></button></a></li>
+						<li><a href="#"><button class="btn btn-default btn-xs custom-btn-1"><h4>Sign Up</h4></button></a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		<!--<div id="nav-border"></div>-->
@@ -49,7 +53,7 @@
 			<div class="col-md-5 col-xs-12" id="section-1-text">
 				<h1>Textbooks, simplified.</h1>
 				<h3>Access all of your textbooks seamlessly on one centralized platform.</h3>
-				<button class="btn btn-default btn-xs custom-btn-1" id="s1-explore-btn"><h4>Learn More</h4></button>
+				<button class="btn btn-default btn-xs custom-btn-1" id="s1-explore-btn"><h4>Sign Me Up!</h4></button>
 			</div>
 			<!--<div class="col-md-7 col-xs-12" id="section-1-img"></div>-->
 			<div class="col-md-7 col-xs-12">
@@ -62,9 +66,9 @@
 		<div class="row"><div class="col-xs-12 spacer"></div></div>
 
 		<!-- REASONS SECTION -->
-			<div class="absol-banner" id="reason-bg-top"></div>
-			<div class="absol-banner" id="reason-bg-middle"></div>
-			<div class="absol-banner" id="reason-bg-bottom"></div>
+		<div class="absol-banner" id="reason-bg-top"></div>
+		<div class="absol-banner" id="reason-bg-middle"></div>
+		<div class="absol-banner" id="reason-bg-bottom"></div>
 		<div class="row">
 			<div class="col-md-12 headline-center" id="reason-headline">
 				<h1>Reasons to try BookBag</h1>
@@ -117,6 +121,102 @@
 			</div>
 		</div>
 
+		<!-- PLATFORM DESCRIPTION 3 -->
+		<div class="row" id="section-3">
+			<div style="text-align: center;">
+				<h1>Learn Like Never Before</h1>
+				<br>
+				<div class="row">
+					<div class="simple-functions">
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="search-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Search</h3>
+									<p class="section-3-text">Find keywords with one click</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="highlight-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Highlight</h3>
+									<p class="section-3-text">Mark important text with a drag</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="define-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Define</h3>
+									<p class="section-3-text">Click on keywords to display definitions</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Side Panels
+						<div class="slideshow-container panel panel-default col-sm-12 col-md-6">
+							<div class="info-box" id="search-info">hey</div>
+							<div class="info-box" id="highlight-info">hi</div>
+							<div class="info-box" id="define-info">hello</div>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+						</div>-->
+					</div>
+					<div class="advanced-functions">
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="annotate-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Annotate</h3>
+									<p class="section-3-text">Type or write notes anywhere</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="chat-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Chat</h3>
+									<p class="section-3-text">Interact with peers through chat forums</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<div class="thumbnail" id="collaborate-thumbnail">
+								<br>
+								<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+								<div class="caption">
+									<h3>Collaborate</h3>
+									<p class="section-3-text">Collaborate with open note sharing</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Right Side Panels 2-
+				<span class="panel panel-default col-sm-12 col-md-6" style="float: right;">
+					<div class="info-box" id="annotate-info">hey</div>
+					<div class="info-box" id="chat-info">hi</div>
+					<div class="info-box" id="collaborate-info">hello</div>
+				</span>
+				<div class="col-md-1 col-xs-0"></div>-->
+			</div>
+		</div>
+
 		<!-- SPACER -->
 		<div class="row"><div class="col-xs-12 spacer"></div></div>
 
@@ -132,26 +232,55 @@
 			<div class="panel panel-default price-block">
 				<div class="panel-body">
 					<h2>Library</h2>
-					<h3>$xx.xx/month</h3>
-					<h4>See how your library can upgrade its database</h4>
+					<h1>$XX</h1>
+					<h6>per term</h6>
+					<br>
+					<h4>
+						<ul>
+							<li>Unlimited Access to All Texts</li>
+							<br>
+							<li>Highlight, Annotate, Search Functionality</li>
+							<br>
+							<li>Chat Forums Connecting Peers Across the World</li>
+						</ul>
+					</h4>
 				</div>
 			</div>
 			<div class="panel panel-default price-block">
 				<div class="panel-body">
 					<h2>Student</h2>
-					<h3>$xx.xx/term</h3>
-					<h4>Discover the power of BookBag for students</h4>
+					<h1>$XX</h1>
+					<h6>per term</h6>
+					<br>
+					<h4>
+						<ul>
+							<li>Access to All Texts Required for Classes</li>
+							<br>
+							<li>Highlight, Annotate, Search Functionality</li>
+							<br>
+							<li>Chat Forums Connecting Peers Across the World</li>
+						</ul>
+					</h4>
 				</div>
 			</div>
 			<div class="panel panel-default price-block">
 				<div class="panel-body">
 					<h2>Institution</h2>
-					<h3>$xx.xx/term</h3>
-					<h4>Learn more about our pricing for colleges</h4>
+					<h1>Learn More</h1>
+					<br>
+					<br>
+					<h4>
+						<ul>
+							<li>Unlimited Access to All Texts</li>
+							<br>
+							<li>Highlight, Annotate, Search Functionality</li>
+							<br>
+							<li>Chat Forums Connecting Peers Across the World</li>
+						</ul>
+					</h4>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-1 col-xs-0"></div>
 
 		<!-- SPACER -->
 		<div class="row"><div class="col-xs-12 spacer"></div></div>
@@ -164,6 +293,37 @@
 			</div>
 		</div>
 	</div>
-	<script src="scripts/script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#search-thumbnail").click(function(){
+				$("#search-info").toggle();
+			});
+		});
+		$(document).ready(function(){
+			$("#highlight-thumbnail").click(function(){
+				$("#highlight-info").toggle();
+			});
+		});
+		$(document).ready(function(){
+			$("#define-thumbnail").click(function(){
+				$("#define-info").toggle();
+			});	
+		});
+		$(document).ready(function(){
+			$("#annotate-thumbnail").click(function(){
+				$("#annotate-info").toggle();
+			});
+		});
+		$(document).ready(function(){
+			$("#chat-thumbnail").click(function(){
+				$("#chat-info").toggle();
+			});
+		});
+		$(document).ready(function(){
+			$("#collaborate-thumbnail").click(function(){
+				$("#collaborate-info").toggle();
+			});
+		});
+	</script>
 </body>
 </html>

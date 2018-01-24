@@ -1,2 +1,5 @@
 assets/
 *.swp
+*.php
+imgs/book-array.png
+test.html
